@@ -36,4 +36,7 @@
   .section4 {
     padding: 3rem;
   }
+  .section4 div {
+    gap: 2rem;
+  }
 }

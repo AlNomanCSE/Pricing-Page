@@ -23,9 +23,11 @@
   font-size: 1rem;
   font-weight: 600;
   color: var(--accent-bright-green);
+  cursor: pointer;
 }
 .menuButton {
   display: none;
+  outline: none;
 }
 @media screen and (max-width: 991px) {
   .navlink {
