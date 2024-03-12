@@ -17,6 +17,9 @@
   letter-spacing: 1px;
 }
 @media screen and (max-width: 991px) {
+  .section1 h1 {
+    font-size: 2rem;
+  }
   .section1 {
     padding-top: 2rem;
     padding-bottom: 0;
