@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 6rem;
+}
+.navbar .image {
+  height: 50px;
+  width: 150px;
+}
+.navlink {
+  display: flex;
+  gap: 3rem;
+
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent-bright-green);
+}
+.navlink > button {
+  background-color: transparent;
+  border: 2px solid var(--accent-bright-green);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent-bright-green);
+}
+.menuButton {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  .navlink {
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    padding: 2rem;
+    position: relative;
+    border-bottom: 0.5px solid var(--background-light-gray);
+  }
+  .navlink {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    max-height: fit-content;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  .active {
+    opacity: 1;
+  }
+  .navlink > button {
+    color: var(--background-black);
+    border: none;
+    background-image: linear-gradient(
+      to right,
+      var(--primary-green),
+      var(--accent-bright-green)
+    );
+  }
+  .menuButton {
+    display: block;
+    font-size: 3rem;
+    color: var(--accent-bright-green);
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,26 @@
+.section1 {
+  text-align: center;
+  padding: 2rem;
+}
+.section1 h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: -2px;
+  color: var(--background-black);
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+.section1 p {
+  color: var(--text-charcoal-gray);
+  line-height: 1.4;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 991px) {
+  .section1 h1 {
+    font-size: 3.5rem;
+  }
+  .section1 p {
+    font-size: 1rem;
+  }
+}
