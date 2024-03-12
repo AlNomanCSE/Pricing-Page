@@ -4,6 +4,7 @@
   max-width: 1400px;
   margin: 0 auto;
   align-items: center;
+  /* border: 1px solid red; */
 }
 .section2 ul > li {
   color: var(--text-charcoal-gray);
@@ -20,6 +21,7 @@
   flex-direction: column;
   gap: 1rem;
   padding: 2rem;
+  /* border: 1px solid red; */
 }
 .article1 h1 {
   color: var(--primary-green);
@@ -149,7 +151,7 @@
     flex-direction: column;
     max-width: 700px;
     gap: 1rem;
-    padding: 2rem;
+    padding: 0.5rem;
   }
   .article1 {
     gap: 0.5rem;
