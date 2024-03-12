@@ -30,10 +30,10 @@ const Header = () => {
               : `${styles.navlink}`
           }
         >
-          <Link href="/features">Features</Link>
-          <Link href="/customer">Customer</Link>
-          <Link href="/pricing">Pricing</Link>
-          <Link href="/blog">Blog</Link>
+          <Link href="">Features</Link>
+          <Link href="">Customer</Link>
+          <Link href="">Pricing</Link>
+          <Link href="">Blog</Link>
           <button>Sign Up</button>
         </div>
       </nav>
