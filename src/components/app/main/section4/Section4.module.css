@@ -1,0 +1,34 @@
+.section4 {
+  border-top: 1px solid var(--background-light-gray);
+  padding: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.section4 h1 {
+  font-size: 4rem;
+}
+.section4 div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 3rem 2rem;
+}
+.section4 > div > article > header > p {
+  color: var(--secondary-gray);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1000px) {
+  .section4 div {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
+}
+@media screen and (min-width: 1400px) {
+  .section4 {
+    padding: 7rem 17rem;
+  }
+  .section4 div {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
+}
