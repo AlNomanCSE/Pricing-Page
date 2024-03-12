@@ -141,7 +141,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   gap: 1rem;
   padding: 0 1rem;
 }
@@ -150,8 +149,25 @@
     flex-direction: column;
     max-width: 700px;
     gap: 1rem;
+    padding: 2rem;
+  }
+  .article1 {
+    gap: 0.5rem;
+  }
+  .article2 {
+    gap: 0.5rem;
+    padding-bottom: 1rem;
   }
   .article2 h1 {
     font-size: 2.7rem;
+  }
+  .article2 > ul {
+    gap: 0.5rem;
+  }
+  .article3 {
+    padding-bottom: 1rem;
+  }
+  .article3 > div > ul {
+    gap: 0.5rem;
   }
 }
